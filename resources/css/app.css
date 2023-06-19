@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --base-content: #2B3674;
+  --base-100: #E0E5F2;
+}
+
+body {
+  color: var(--base-content);
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+.btn-primary {
+  color: white;
+}
+
+.btn.btn-neutral {
+  color: var(--base-content);
+}
+
+.divider:before,
+.divider:after {
+  height: 1px;
+  background-color: var(--base-100);
+}
